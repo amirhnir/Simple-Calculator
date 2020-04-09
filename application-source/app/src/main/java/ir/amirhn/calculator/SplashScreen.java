@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 
-public class splashScreen extends AppCompatActivity {
+public class SplashScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +25,7 @@ public class splashScreen extends AppCompatActivity {
             public void onFinish() {
 
 
-                Intent intent = new Intent(splashScreen.this,MainActivity.class);
+                Intent intent = new Intent(SplashScreen.this,MainActivity.class);
                 startActivity(intent);
                 finish();
 
